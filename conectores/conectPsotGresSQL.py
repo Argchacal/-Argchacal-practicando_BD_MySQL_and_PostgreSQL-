@@ -7,10 +7,10 @@ class ClassConexion:
         try:
             conexion = psycopg2.connect(
                                             user = 'postgres',
-                                            password ='Bartousai20',
+                                            password ='',
                                             host='127.0.0.1',
                                             database ='postgres',
-                                            port='5432')
+                                            port='')
             print("Conectado a la base de datos")
         
         except Exception as error:

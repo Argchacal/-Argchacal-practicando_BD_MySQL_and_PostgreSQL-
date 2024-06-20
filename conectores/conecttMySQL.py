@@ -5,10 +5,10 @@ class ClassConexion:
         try:
             conexion = mysql.connector.connect(
                                             user = 'root',
-                                            password ='Bartousai2020',
+                                            password ='',
                                             host='127.0.0.1',#es igual a localhost
                                             database ='',
-                                            port='3306')
+                                            port='')#
             print("Conectado a la base de datos")
             return conexion
         except mysql.connector.Error as error:

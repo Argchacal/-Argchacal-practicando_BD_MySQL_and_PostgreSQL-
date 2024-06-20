@@ -1,0 +1,9 @@
+para el conector a Posgresql
+
+psycopg2
+
+
+para conectar MySQL
+
+instalar Mysql conector
+pip instal mysql-connector-python
